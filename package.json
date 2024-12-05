@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "rm -rf ../autogenui/web/ui && next build && cp -r  out/ ../autogenui/web/ui",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
